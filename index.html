@@ -1,0 +1,1260 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html lang="en">
+    <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <title>
+            Reflechir'15 - A National Level Technical Symposium by ECE Department of KLNCE
+        </title>
+        <meta content="Reflechir is the annual National level technical symposium of the Electronics and communication Engineering of K.L.N. College of Engineering. Reflechir was first incepted in the 2000s as a humble affair, by our students and faculties." name="description">
+        <meta content="ECE Department" name="author">
+        <meta content="reflechir 2k15, reflechir, symposium by klnce, klnce symposium, ece symposium, madurai feburary symposium, ece department symposium, reflechir 2015, reflechir 15, madurai tech fest, national level technical symposium" name="keywords">
+        <meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
+		<meta property="og:title" content="Reflechir'15 - A National Level Technical Symposium by ECE Department of KLNCE" />
+		<meta property="og:site_name" content="Reflechir 2k15"/>
+		<meta property="og:description" content="Reflechir is the annual National level technical symposium of the Electronics and communication Engineering of K.L.N. College of Engineering. Reflechir was first incepted in the 2000s as a humble affair, by our students and faculties." />
+		<meta property="og:type" content="website" />
+        <link href="css/style-single-image-2.css" media="all" rel="stylesheet" type="text/css">
+        <link href="styleswitch/styleswitch.css" media="all" rel="stylesheet" type="text/css">
+        <link href="css/colors/red.css" media="screen" rel="stylesheet" title="red" type="text/css">
+       	<link href="css/skeleton-wide.css" media="all" rel="stylesheet" type="text/css">
+        <link href="css/media.css" media="all" rel="stylesheet" type="text/css">
+        <link href="css/custom.css" rel="stylesheet" type="text/css">
+        <link href="css/font-awesome-4.1.0/css/font-awesome.css" media="all" rel="stylesheet" type="text/css">
+        <!--[if lt IE 9]>
+            <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+		<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+		<!--<style>
+			.fire-closer {
+				margin-top: 60px;
+			}
+			.menu {
+				margin-top: 20px;
+			}
+		</style>-->
+    </head>
+    <body style="overflow: auto !important">
+	
+		<!--<div class="impnotice" style="width: 100%; min-height: 23px; line-height: 23px; border-style: solid; border-width: 0 0 2px 0; border-color: #bb141a; background-color: #fff; bottom: 0; position: relative; z-index: 999; font-weight: bold; font-size: 14px">
+			<center><b>IMPORTANT NOTICE: Last date for registration and paper / project abstract submission has been extended till February 6, 2015. Inimation of papers / project abstract will be done within February 13, 2015.</b></center>
+		</div>
+		<script>
+		var rainBowColors = new Array();
+		rainBowColors.push("#fff");
+		 rainBowColors.push("#000000");
+		var rainbowCounter = 0;
+
+		var interval = setInterval(function(){
+		    jQuery(".impnotice").css("color", rainBowColors[rainbowCounter]);
+		    jQuery(".impnotice").fadeIn("fast").css("background-color", "#000");
+		    rainbowCounter++;
+		    if (rainbowCounter == rainBowColors.length) 
+		    {
+		        rainbowCounter = 0;
+				jQuery(".impnotice").css("background-color", "#fff");
+		    }
+		},500);
+		</script>-->
+		
+		
+        <div class="screen-loader"></div>
+        <div id="preload">
+            <div id="preload-status" style="width: 300px"><br><br>
+			Communicating...
+			</div>
+			
+        </div>
+
+        <div id="particles-js"></div>
+        <div id="curtains"></div>
+        <div id="top-shade"></div>
+        <div class="preload-content">
+            <div id="home"></div>
+        </div>
+        <nav class="menu">
+            <ul class="mainNav">
+                <li class="curr">
+                    <a class="menu-state active" href="#" id="fire-home"><span class="navNumber">00</span> <span class="navTitle">Home</span><br>
+                    Welcome</a>
+                </li>
+                <li>
+                    <a class="menu-state" href="#" id="fire-about"><span class="navNumber">01</span> <span class="navTitle">About</span><br>
+                    Who we are</a>
+                </li>
+                <li>
+                    <a class="menu-state" href="#" id="events"><span class="navNumber">02</span> <span class="navTitle">Events</span><br>
+					<script>
+						$(document).ready(function(){
+						var a = 1;
+						  $("#events").click(function(){
+							if(a%2 != 0) {
+								//$('#countdown-wrapper').attr('style','left: 180px');
+								$('#countdown-wrapper').animate({ marginLeft: "155px"},100);
+								a = a + 1;
+							}
+							else {
+								//$('#countdown-wrapper').removeAttr('style');
+								$('#countdown-wrapper').animate({ marginLeft: "26px"},100);
+								a = a + 1;
+							}
+						    $("#eventshow").slideToggle();
+							
+						  });
+						});
+					</script>
+                    What we conduct</a>
+                </li>
+				<div id="eventshow" style="display:none">
+				<li>
+                    <a class="menu-state" href="#" id="fire-ppt"><span style="margin-left: 10px">Paper Presentation</span></a>
+                </li>
+				<li>
+                    <a class="menu-state" href="#" id="fire-project"><span style="margin-left: 10px">Project Expo</span></a>
+                </li>
+				<li>
+                    <a class="menu-state" href="#" id="fire-debug"><span style="margin-left: 10px">Debugging</span></a>
+                </li>
+				<li>
+                    <a class="menu-state" href="#" id="fire-brain"><span style="margin-left: 10px">Brain Storming</span></a>
+                </li>
+				<li>
+                    <a class="menu-state" href="#" id="fire-port"><span style="margin-left: 10px">Potpourri</span></a>
+                </li>
+				<li>
+                    <a class="menu-state" href="#" id="fire-surprise"><span style="margin-left: 10px">Surprise Event</span></a>
+                </li>
+				</div>
+                <li>
+                    <a class="menu-state" href="#" id="fire-reg"><span class="navNumber">03</span> <span class="navTitle">Register</span><br>
+                    Enroll Yourself</a>
+                </li>
+				<li>
+                    <a class="menu-state" href="#" id="fire-contact"><span class="navNumber">04</span> <span class="navTitle">Contact</span><br>
+                    Get in touch</a>
+                </li>
+            </ul>
+        </nav>
+
+        <nav class="menu-mobile">
+            <ul>
+                <li>
+                    <ul>
+                        <li class="lifting-first">
+                            <a class="menu-state active" href="#" id="fire-home-mobile">Home</a>
+                        </li>
+                        <li class="lifting">
+                            <a class="menu-state" href="#" id="fire-about-mobile">About</a>                        
+						</li>
+                        <li class="lifting">
+                            <a class="menu-state" href="#" id="mevents">Events</a>         
+               			</li>
+						<script>
+							$(document).ready(function(){
+
+							  $("#mevents").click(function(){
+							    $("#meventshow").slideToggle();
+							  });
+							});
+						</script>
+						<div id="meventshow" style="display:none">
+						<li>
+		                    <a class="menu-state" href="#" id="fire-ppt-mobile"><span style="margin-left: 10px">Paper Presentation</span></a>
+		                </li>
+						<li>
+		                    <a class="menu-state" href="#" id="fire-project-mobile"><span style="margin-left: 10px">Project Expo</span></a>
+		                </li>
+						<li>
+		                    <a class="menu-state" href="#" id="fire-debug-mobile"><span style="margin-left: 10px">Debugging</span></a>
+		                </li>
+						<li>
+		                    <a class="menu-state" href="#" id="fire-brain-mobile"><span style="margin-left: 10px">Brain Storming</span></a>
+		                </li>
+						<li>
+		                    <a class="menu-state" href="#" id="fire-port-mobile"><span style="margin-left: 10px">Potpourri</span></a>
+		                </li>
+						<li>
+		                    <a class="menu-state" href="#" id="fire-surprise-mobile"><span style="margin-left: 10px">Surprise Event</span></a>
+		                </li>
+						</div>
+                        <li class="lifting">
+                            <a class="menu-state" href="#" id="fire-reg-mobile">Register</a>                        
+						</li>
+						<li class="lifting">
+                            <a class="menu-state" href="#" id="fire-contact-mobile">Contact</a>                        
+						</li>
+                    </ul><a class="menu-mobile-trigger" href="#">Menu</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="upper-page current" id="read-home">
+            <div class="borders"></div>
+            <div class="social-icons-wrapper">
+                <ul class="social-icons">
+					<a href="Reflechir-2k15-Poster.jpg" download>
+					<span class="dl-poster">
+						 <span class="fa fa-download"></span> Download Our Poster 
+					</span></a>
+	                <li>
+                        <a class="fa fa-facebook-square fa-2x" href="https://www.facebook.com/reflechir15" target="_blank"></a>
+                    </li>
+
+                </ul>
+            </div>
+            <div class="upper-content">
+                <div class="container center">
+                    <div id="intro-wrapper">
+                        <div class="eight columns column">
+                            <div id="intro-top-line"></div>
+                        </div>
+                        <div class="eight columns column">
+                            <div id="intro-top">
+                                ECE Department of KLNCE Presents
+                            </div>
+                        </div>
+                        <div class="sixteen columns">
+                            <div id="intro-title">
+                                REFLECHIR'15
+                            </div>
+                        </div>
+                        <div class="sixteen columns">
+                            <div id="intro-subtitle" style="background-color: rgba(0, 0, 0, 0.4);">
+                                FEBRUARY 26, 2015
+                            </div>
+                        </div>
+                        <div class="eight columns column">
+                            <div id="teaser">
+                                <div id="teaser-text">
+                                    <div class="teaser-text-animation active first">
+                                        <h3>
+                                            <span class="teaser-normal">Attitude</span> <span class="teaser-highlight">Amplified</span>
+                                        </h3>
+                                    </div>
+                                    <div class="teaser-text-animation">
+                                        <h3>
+                                            <span class="teaser-normal">Faults</span> <span class="teaser-highlight">Rectified</span>
+                                        </h3>
+                                    </div>
+                                    <div class="teaser-text-animation">
+                                        <h3>
+                                            <span class="teaser-normal">Ideas</span> <span class="teaser-highlight">Multiplexed</span>
+                                        </h3>
+                                    </div>
+                                    <div class="teaser-text-animation">
+                                        <h3>
+                                            <span class="teaser-normal">Faults</span> <span class="teaser-highlight">Rectified</span>
+                                        </h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="eight columns column">
+                            <div id="intro-bottom-line"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="countdown-wrapper">
+                <div id="countdown-wrap">
+                    <ul id="countdown">
+                        <li>
+                            <span id="days-sub">days</span> <input class="knob" data-fgcolor="#fff" data-height="140" data-max="366" data-min="0" data-readonly="true" data-skin="tron" data-thickness=
+                            "0.1" data-width="140" id="days">
+                        </li>
+                        <li>
+                            <span id="hours-sub">hours</span> <input class="knob" data-fgcolor="#fff" data-height="140" data-max="24" data-min="0" data-readonly="true" data-skin="tron"
+                            data-thickness="0.1" data-width="140" id="hours">
+                        </li>
+                        <li>
+                            <span id="mins-sub">minutes</span> <input class="knob" data-fgcolor="#fff" data-height="140" data-max="60" data-min="0" data-readonly="true" data-skin="tron"
+                            data-thickness="0.1" data-width="140" id="mins">
+                        </li>
+                        <li>
+                            <span id="secs-sub">seconds</span> <input class="knob" data-fgcolor="#fff" data-height="140" data-max="60" data-min="0" data-readonly="true" data-skin="tron"
+                            data-thickness="0.1" data-width="140" id="secs">
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div id="subscribe-form">
+				
+                <h4>
+								<img src="klncelogo.gif" width="110px" title="K.L.N. College of Engineering" alt="KLNCE Logo">				
+                </h4>
+                <div id="subscribe-wrapper">
+	
+                    <div id="newsletter">
+                        <div class="newsletter">
+                            <form id="subscribe">
+								<input id="submit" type="button" value="&copy; Copyrights 2015 - Reflechir">
+                            </form>
+							<script>
+								$(document).ready(function(){
+								    $('#subscribe').hover(function() {
+								        $('#submit').fadeIn(1000).attr('value','Web Spider: Arjun, Pre-Final Year, CSE');
+								    }, function() {
+								        $('#submit').attr('value','© Copyrights 2015 - Reflechir').fadeIn(1000);
+								    });
+								});
+							</script>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="lower-page" id="about">
+            
+            <div class="lower-content">
+                <div class="about-intro">
+                    <h1>
+                        ABOUT
+                    </h1>
+                </div>
+                
+                <div class="container center" style="width: 660px;">
+                    <div class="twelve columns">
+                        <div class="divider-left-top"></div>
+                    </div>
+                    <div class="twelve columns">
+                        <div class="divider-right-top"></div>
+                    </div>
+                    <div class="twelve columns about-column-full">
+                        <p>
+                            Reflechir is the annual National level technical symposium of the Electronics and communication Engineering of K.L.N. College of Engineering. Reflechir was first incepted in the 2000s as a humble affair, by our students and faculties. Recent editions have seen the event grow exponentially, with the latest edition bearing witness to this fact, recording an unheralded footfall of over a quarter thousand participants. Conveniently scheduled on the more relaxed days of a sapping, short and sweet Even Semester - <span style="font-weight: bold">FEBRUARY 26, REFLECHIR’15</span> provides the perfect platform to showcase technical acumen, compete with peers and most important of all, imbibe inspiration.
+                        </p>
+						<p>
+							For help, please feel free to email us at <a href="mailto:reflechirhelp@gmail.com">reflechirhelp@gmail.com</a><br>
+							<u><h4>For General Queries</h4></u>
+						</p>
+                    </div>
+					
+                    <div class="one-fifth column about-column" style="width: 30%">
+                        <span class="awesome"><span class="fa fa-user"></span></span>
+                        <p class="info" style="font-size: 12px">
+                            Prasanna Venkatesh Kumar R
+                        </p>
+                        <hr>
+						<p>
+                            Final year, ECE<br><span class="fa fa-phone"></span> 9095512278  
+                        </p>
+                    </div>
+                    <div class="one-fifth column about-column" style="width: 30%">
+                        <span class="awesome"><span class="fa fa-user"></span></span>
+                        <p class="info" style="font-size: 12px">
+                            Sugadev M
+                        </p>
+						<hr>
+                        <p>
+                            Final year, ECE<br><span class="fa fa-phone"></span> 9003762017  
+                        </p>
+                    </div>
+                    <div class="one-fifth column about-column" style="width: 30%">
+                        <span class="awesome"><span class="fa fa-user"></span></span>
+                        <p class="info" style="font-size: 12px">
+                            Abhejit S K
+                        </p>
+						<hr>
+                        <p>
+                           Final Year, ECE<br><span class="fa fa-phone"></span> 7708312541
+                        </p>
+                    </div>
+					<div class="twelve columns about-column-full">
+						<p align="center">
+							Web Spider: <a href="http://www.cryptlife.com/about" target="_blank" title="Visit Arjun's blog"><span style="font-weight: bold">Arjun R R</span></a>, Pre-Final Year, CSE - <span style="font-weight: bold"><a href="http://www.facebook.com/rrarjun" target="_blank" title="Facebook"><span class="fa fa-facebook-square"></span></a> <a href="http://www.twitter.com/arjunrr" target="_blank" title="Twitter"><span class="fa fa-twitter"></span></a> <a href="http://www.google.com/+ArjunRR" target="_blank" title="Google+"><span class="fa fa-google-plus-square"></span></a></span>
+						</p>
+					</div>
+                    <div class="sixteen columns">
+                        <div class="divider-left-bottom"></div>
+                    </div>
+                    <div class="sixteen columns">
+                        <div class="divider-right-bottom"></div>
+                    </div>
+                </div>
+				
+                <div class="fire-closer">
+                    <a class="menu-state" href="#" id="fire-about-closer"><img alt="Closer" src="images/closer.png"></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="lower-page" id="ppt">
+            
+            <div class="lower-content">
+                <div class="ppt-intro">
+                    <h1>
+                        PAPER PRESENTATION
+                    </h1>
+                </div>
+                <div class="container center" style="width: 660px">
+                    <div class="twelve columns">
+                        <div class="divider-left-top"></div>
+                    </div>
+                    <div class="twelve columns">
+                        <div class="divider-right-top"></div>
+                    </div>
+                    <div class="twelve columns services-column-full">
+                        <p>
+                             All the presenters bring to their role something different than what the author put on paper. The presenters are requested to present their papers with only occasional reference to their notes rather than by reading out previously prepared texts.
+                        </p>
+						<br>
+						<u><h4>SUGGESTED DOMAINS</h4></u>
+						<br>
+						<ul style="list-style-type: circle; width: 25%; margin: 0 auto; text-align: left">
+							<li>Green Electronics</li>
+							<li>Nanotechnology/Spintronics</li>
+							<li>Fuzzy Logic</li>
+							<li>RF and Microwave/MEMS</li>
+							<li>Signal/Image Processing</li>
+							<li>VLSI/Embedded/Robotics</li>
+							<li>Networking</li>
+							<li>Wireless Communication/Optical communication</li>
+							<li>Other innovative topics</li>
+							
+						</ul>
+						
+						<br>
+						<u><h4>RULES &amp; REGULATIONS</h4></u>
+						<br>
+						<ul style="list-style-type: circle; width: 60%; margin: 0 auto; text-align: left">
+							<li>Maximum of 2 authors shall present a paper.</li>
+							<li><span style="font-weight: bold">The registration fee is Rs. 100/- (either by DD or Spot Payment) per author.</span></li>
+							<li>There is no on spot registration.</li>
+							<li>Demand Draft should be taken in favor of ‘THE PRINCIPAL, K.L.N COLLEGE OF ENGINEERING’ (Payable at Madurai).</li>
+							<li>Full paper should be sent to <a href="mailto:reflechirece15@gmail.com">reflechirece15@gmail.com</a> <span style="font-weight: bold">with the subject of the mail as Paper presentation</span>.</li>
+							<li>The paper should be in IEEE format. </li>
+							<li>The front page should have title of paper on the top and the details of the team members including mail id and contact numbers at the bottom.</li>
+							
+						</ul>
+                    </div>
+					<div style="clear: both">
+					<div class="one-fifth column about-column" style="width: 30%">
+                        <span class="awesome"><span class="fa fa-user"></span></span>
+                        <p class="info" style="font-size: 12px">
+                            CONTACT
+                        </p>
+						<hr>
+                        <p>
+                           Vinothini N<br>Final Year, ECE<br><span class="fa fa-phone"></span> 9943652249
+                        </p>
+                    </div>
+
+
+					<div class="one-fifth column about-column" style="width: 30%">
+                        <span class="awesome"><span class="fa fa-calendar"></span></span>
+                        <p class="info" style="font-size: 12px">
+							IMPORTANT DATES
+                        </p>
+						<hr>
+                        <p>
+							<ul>
+                           		<li>Last date for online registration:  31.01.2015</li>
+								<li>Last date for Paper submission:  31.01.2015</li>
+								<li>Intimation of selected papers: 06.02.2015</li>
+								<li>Last date for sending the scanned copy of DD: 13.02.2015</li>
+							</ul>
+                        </p>
+                    </div>
+
+					<div class="one-fifth column about-column" style="width: 30%">
+                        <span class="awesome"><span class="fa fa-gift"></span></span>
+                        <p class="info" style="font-size: 12px">
+							PRIZES &amp; REWARDS
+                        </p>
+						<hr>
+                        <p>
+							<ul>
+                           		<li>First prize – CASH AWARD OF Rs.1500/-.</li>
+								<li>Second Prize – CASH AWARD OF Rs.1000/-.</li>
+								<li>Certificates will be provided to all participants.</li>
+							</ul>
+                        </p>
+                    </div>
+					</div>
+
+                    <div class="sixteen columns">
+                        <div class="divider-left-bottom"></div>
+                    </div>
+                    <div class="sixteen columns">
+                        <div class="divider-right-bottom"></div>
+                    </div>
+                </div>
+                <div class="fire-closer">
+                    <a class="menu-state" href="#" id="fire-services-closer"><img alt="Closer" src="images/closer.png"></a>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="lower-page" id="project">
+            
+            <div class="lower-content">
+                <div class="ppt-intro">
+                    <h1>
+                        PROJECT EXPO
+                    </h1>
+                </div>
+                <div class="container center" style="width: 660px">
+                    <div class="twelve columns">
+                        <div class="divider-left-top"></div>
+                    </div>
+                    <div class="twelve columns">
+                        <div class="divider-right-top"></div>
+                    </div>
+                    <div class="twelve columns services-column-full">
+                        <p><br>
+                            “It does not take much strength to do things, but it requires a great deal of strength to decide what to do.”<br>And now here is the door opened for you to expose your creativity and talent. You may come out with innovative ideas for your own projects.
+                        </p>
+						<br>
+						<u><h4>RULES &amp; REGULATIONS</h4></u>
+						<br>
+						<ul style="list-style-type: circle; width: 60%; margin: 0 auto; text-align: left">
+							<li>Only 2 members in a team are allowed.</li>
+							<li><span style="font-weight: bold">The registration fee is Rs. 100/- (either by DD or Spot Payment) per author.</span></li>
+							<li>There is no on spot registration.</li>
+							<li>Demand Draft should be taken in favor of ‘THE PRINCIPAL, K.L.N COLLEGE OF ENGINEERING’ (Payable at Madurai).</li>
+							<li>Abstract of the project should be sent to <a href="reflechirece15@gmail.com">reflechirece15@gmail.com</a> <span style="font-weight: bold">with the subject of the mail as Project Expo</span>.</li>
+							<li>The details of the team members including mail id and contact numbers should be mentioned.</li>
+							<li>Should be a hardware project. </li>
+							<li>Cost should not exceed 3000.</li>
+							<li>Can use any launch pads.</li>
+							<li>Open source hardware projects are welcome.</li>
+						</ul>
+                    </div>
+					<div style="clear: both">
+					<div class="one-fifth column about-column" style="width: 30%">
+                        <span class="awesome"><span class="fa fa-user"></span></span>
+                        <p class="info" style="font-size: 12px">
+                            CONTACT
+                        </p>
+						<hr>
+                        <p>
+                           Saravanesh S S<br>Final Year, ECE<br><span class="fa fa-phone"></span> 7200726126
+                        </p>
+                    </div>
+
+
+					<div class="one-fifth column about-column" style="width: 30%">
+                        <span class="awesome"><span class="fa fa-calendar"></span></span>
+                        <p class="info" style="font-size: 12px">
+							IMPORTANT DATES
+                        </p>
+						<hr>
+                        <p>
+							<ul>
+                           		<li>Last date for online registration:  31.01.2015</li>
+								<li>Last date for abstract submission:  31.01.2015</li>
+								<li>Intimation of selected project abstracts: 02.02.2015</li>
+								<li>Last date for sending the scanned copy of DD: 13.02.2015</li>
+							</ul>
+                        </p>
+                    </div>
+
+					<div class="one-fifth column about-column" style="width: 30%">
+                        <span class="awesome"><span class="fa fa-gift"></span></span>
+                        <p class="info" style="font-size: 12px">
+							PRIZES &amp; REWARDS
+                        </p>
+						<hr>
+                        <p>
+							<ul>
+                           		<li>First prize – CASH AWARD OF Rs.1500/-.</li>
+								<li>Second Prize – CASH AWARD OF Rs.1000/-.</li>
+								<li>Certificates will be provided to all participants.</li>
+							</ul>
+                        </p>
+                    </div>
+					</div>
+
+
+                    <div class="sixteen columns">
+                        <div class="divider-left-bottom"></div>
+                    </div>
+                    <div class="sixteen columns">
+                        <div class="divider-right-bottom"></div>
+                    </div>
+                </div>
+
+                <div class="fire-closer">
+                    <a class="menu-state" href="#" id="fire-services-closer"><img alt="Closer" src="images/closer.png"></a>
+                </div>
+            </div>
+        </div>
+
+
+		
+		
+		<div class="lower-page" id="debug">
+            
+            <div class="lower-content">
+ 
+                <div class="ppt-intro">
+                    <h1>
+                        CIRCUIT/PROGRAM DEBUGGING
+                    </h1>
+                </div>
+                <div class="container center" style="width: 660px">
+
+                    <div class="twelve columns">
+                        <div class="divider-left-top"></div>
+                    </div>
+                    <div class="twelve columns">
+                        <div class="divider-right-top"></div>
+                    </div>
+                    <div class="twelve columns services-column-full">
+                        <p><br>
+							The activity of "debugging", or removing bugs, ends when people get tired of doing it, not when the bugs are removed."This event comprises of circuit as well as program debugging. The participants can choose any stream of their interest. For example, if they choose circuit debugging, they may proceed with quiz on circuits as their first round and then circuit debugging as their second round and vice-versa for program debugging.
+                        </p>
+						<br>
+						<p align="left">
+						<u><h4>PHASE 1 - QUIZ</h4></u>
+							               Technical Quiz on Electronic circuits/programming (participants can choose any one).<br>
+						<u><h4>PHASE 2 - DEBUGGING</h4></u>
+							               Circuit/program debugging. It is a debugging round in which the teams have to find out the bugs in the circuit/program given to them and debug them and make the circuit/program work.
+							
+						</p>
+						<br>
+						<u><h4>RULES &amp; REGULATIONS</h4></u>
+						<br>
+						<ul style="list-style-type: circle; width: 60%; margin: 0 auto; text-align: left">
+							<li>Only 2 members in a team are allowed.</li>
+							<li><span style="font-weight: bold">The registration fee is Rs. 100/- (either by DD or Spot Payment) per author.</span></li>
+							<li>There is no on spot registration.</li>
+							<li>Demand Draft should be taken in favor of ‘THE PRINCIPAL, K.L.N COLLEGE OF ENGINEERING’ (Payable at Madurai).</li>
+						</ul>
+                    </div>
+
+
+					<div style="clear: both; margin-top: 10px">
+					
+					<!--<div class="one-fifth column about-column" style="width: 30%">
+                        <span class="awesome"><span class="fa fa-user"></span></span>
+                        <p class="info" style="font-size: 12px">
+                            CONTACT
+                        </p>
+						<hr>
+                        <p>
+                          
+                        </p>
+                    </div>-->
+
+
+					<div class="one-fifth column about-column" style="width: 45%">
+                        <span class="awesome"><span class="fa fa-calendar"></span></span>
+                        <p class="info" style="font-size: 12px">
+							IMPORTANT DATES
+                        </p>
+						<hr>
+                        <p>
+							<ul>
+                           		<li>Last date for online registration:  31.01.2015</li>
+								<li>Last date for sending the scanned copy of DD: 13.02.2015</li>
+
+							</ul>
+                        </p>
+                    </div>
+
+					<div class="one-fifth column about-column" style="width: 45%">
+                        <span class="awesome"><span class="fa fa-gift"></span></span>
+                        <p class="info" style="font-size: 12px">
+							PRIZES &amp; REWARDS
+                        </p>
+						<hr>
+                        <p>
+							<ul>
+                           		<li>First prize – CASH AWARD OF Rs.1000/-.</li>
+								<li>Second Prize – CASH AWARD OF Rs.750/-.</li>
+								<li>Certificates will be provided to all participants.</li>
+							</ul>
+                        </p>
+                    </div>
+					</div>
+
+                    <div class="sixteen columns">
+                        <div class="divider-left-bottom"></div>
+                    </div>
+                    <div class="sixteen columns">
+                        <div class="divider-right-bottom"></div>
+                    </div>
+                </div>
+                <div class="fire-closer">
+                    <a class="menu-state" href="#" id="fire-services-closer"><img alt="Closer" src="images/closer.png"></a>
+                </div>
+            </div>
+        </div>
+
+
+		<div class="lower-page" id="brain">
+            
+            <div class="lower-content">
+
+                <div class="ppt-intro">
+                    <h1>
+                        BRAIN STORMING
+                    </h1>
+                </div>
+                <div class="container center" style="width: 660px">
+
+                    <div class="twelve columns">
+                        <div class="divider-left-top"></div>
+                    </div>
+                    <div class="twelve columns">
+                        <div class="divider-right-top"></div>
+                    </div>
+                    <div class="twelve columns services-column-full">
+                        <p><br>
+							Wondering what is it? Get ready to create your own identity in sort of knowledge.  We, at REFLECHIR ’15 provide you a platform to get to know about the gadgets from tiny to ultra large size and also to share your experience.
+                        </p>
+						<br>
+						<p align="left">
+						<u><h4>PHASE 1 - INVENTIONS AND INVENTORS</h4></u>
+							               We are here to test your mental capability about the past, present and future era tech gadgets and their inventors. So be ready to inculcate your brain with a good learning experience.<br>
+						<u><h4>PHASE 2 - TECHNICAL CONNECTIONS</h4></u>
+							               Have you ever got a thought that is ELECTRONICS really suits for me? Here we provide you a platform to get mingled in interesting technical connections round with clues of pictures given. So be ready for a fun loving game and for a mind-boggling experience.
+						</p>
+						<br>
+						<u><h4>RULES &amp; REGULATIONS</h4></u>
+						<br>
+						<ul style="list-style-type: circle; width: 60%; margin: 0 auto; text-align: left">
+							<li>Only 2 members in a team are allowed.</li>
+							<li><span style="font-weight: bold">The registration fee is Rs. 100/- (either by DD or Spot Payment) per author.</span></li>
+							<li>There is no on spot registration.</li>
+							<li>Demand Draft should be taken in favor of ‘THE PRINCIPAL, K.L.N COLLEGE OF ENGINEERING’ (Payable at Madurai).</li>
+						</ul>
+                    </div>
+					<div style="clear: both">
+					
+						<div class="one-fifth column about-column" style="width: 45%">
+	                        <span class="awesome"><span class="fa fa-calendar"></span></span>
+	                        <p class="info" style="font-size: 12px">
+								IMPORTANT DATES
+	                        </p>
+							<hr>
+	                        <p>
+								<ul>
+	                           		<li>Last date for online registration:  31.01.2015</li>
+									<li>Last date for sending the scanned copy of DD: 13.02.2015</li>
+
+								</ul>
+	                        </p>
+	                    </div>
+
+						<div class="one-fifth column about-column" style="width: 45%">
+	                        <span class="awesome"><span class="fa fa-gift"></span></span>
+	                        <p class="info" style="font-size: 12px">
+								PRIZES &amp; REWARDS
+	                        </p>
+							<hr>
+	                        <p>
+								<ul>
+	                           		<li>First prize – CASH AWARD OF Rs.1000/-.</li>
+									<li>Second Prize – CASH AWARD OF Rs.750/-.</li>
+									<li>Certificates will be provided to all participants.</li>
+								</ul>
+	                        </p>
+	                    </div>
+					
+					</div>
+
+                    <div class="sixteen columns">
+                        <div class="divider-left-bottom"></div>
+                    </div>
+                    <div class="sixteen columns">
+                        <div class="divider-right-bottom"></div>
+                    </div>
+                </div>
+                <div class="fire-closer">
+                    <a class="menu-state" href="#" id="fire-services-closer"><img alt="Closer" src="images/closer.png"></a>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+		<div class="lower-page" id="port">
+            
+            <div class="lower-content">
+                <div class="ppt-intro">
+                    <h1>
+                        POTPOURRI
+                    </h1>
+                </div>
+                <div class="container center" style="width: 660px">
+
+                    <div class="twelve columns">
+                        <div class="divider-left-top"></div>
+                    </div>
+                    <div class="twelve columns">
+                        <div class="divider-right-top"></div>
+                    </div>
+                    <div class="twelve columns services-column-full">
+                        
+						<br>
+						<p align="left">
+						<u><h4>PHASE 1 - Dumb charades</h4></u>
+							               All the world's a stage. Think laterally and act out the word given by the organizers and make your team win by making your mate guessing it right. <br>
+						<u><h4>PHASE 2 - Grandmaster</h4></u>
+							               Act out the personality in given time and give clues about the person. Win exciting gifts if your team mate finds it out in given number of clues. It’s fun!
+						</p>
+						<br>
+						<u><h4>RULES &amp; REGULATIONS</h4></u>
+						<br>
+						<ul style="list-style-type: circle; width: 60%; margin: 0 auto; text-align: left">
+							<li>Only 2 members in a team are allowed.</li>
+							<li><span style="font-weight: bold">The registration fee is Rs. 100/- (either by DD or Spot Payment) per author.</span></li>
+							<li>There is no on spot registration.</li>
+							<li>Demand Draft should be taken in favor of ‘THE PRINCIPAL, K.L.N COLLEGE OF ENGINEERING’ (Payable at Madurai).</li>
+						</ul>
+                    </div>
+
+
+					<div style="clear: both; margin-top: 10px">
+					
+					<!--<div class="one-fifth column about-column" style="width: 30%">
+                        <span class="awesome"><span class="fa fa-user"></span></span>
+                        <p class="info" style="font-size: 12px">
+                            CONTACT
+                        </p>
+						<hr>
+                        <p>
+                          
+                        </p>
+                    </div>-->
+
+
+					<div class="one-fifth column about-column" style="width: 45%">
+                        <span class="awesome"><span class="fa fa-calendar"></span></span>
+                        <p class="info" style="font-size: 12px">
+							IMPORTANT DATES
+                        </p>
+						<hr>
+                        <p>
+							<ul>
+                           		<li>Last date for online registration:  31.01.2015</li>
+								<li>Last date for sending the scanned copy of DD: 13.02.2015</li>
+
+							</ul>
+                        </p>
+                    </div>
+
+					<div class="one-fifth column about-column" style="width: 45%">
+                        <span class="awesome"><span class="fa fa-gift"></span></span>
+                        <p class="info" style="font-size: 12px">
+							PRIZES &amp; REWARDS
+                        </p>
+						<hr>
+                        <p>
+							<ul>
+                           		<li>First prize – CASH AWARD OF Rs.1000/-.</li>
+								<li>Second Prize – CASH AWARD OF Rs.750/-.</li>
+								<li>Certificates will be provided to all participants.</li>
+							</ul>
+                        </p>
+                    </div>
+					</div>
+
+                    
+                    <div class="sixteen columns">
+                        <div class="divider-left-bottom"></div>
+                    </div>
+                    <div class="sixteen columns">
+                        <div class="divider-right-bottom"></div>
+                    </div>
+                </div>
+                <div class="fire-closer">
+                    <a class="menu-state" href="#" id="fire-services-closer"><img alt="Closer" src="images/closer.png"></a>
+                </div>
+            </div>
+        </div>
+
+
+
+
+		<div class="lower-page" id="surprise">
+            
+            <div class="lower-content">
+                
+                <div class="ppt-intro">
+                    <h1>
+                        SURPRISE EVENT
+                    </h1>
+                </div>
+                
+                <div class="container center" style="width: 660px">
+
+                    <div class="twelve columns">
+                        <div class="divider-left-top"></div>
+                    </div>
+
+                    <div class="twelve columns">
+                        <div class="divider-right-top"></div>
+                    </div>
+                    <div class="twelve columns services-column-full">
+                        <p><br>
+							“Surprise is the greatest gift which life can grant us”. Yeah, it’s non technical!! Get ready to brush up your brains! Ok they said it is a “source of amazement”.
+                        </p>
+						
+						<br>
+						<u><h4>RULES &amp; REGULATIONS</h4></u>
+						<br>
+						<ul style="list-style-type: circle; width: 60%; margin: 0 auto; text-align: left">
+							<li>Only 2 members in a team are allowed.</li>
+							<li>The teams participating in more than one event can participate in surprise event without any additional registration fee.</li>
+						</ul>
+                    </div>
+
+
+					<div style="clear: both; margin-top: 10px">
+					
+					<!--<div class="one-fifth column about-column" style="width: 30%">
+                        <span class="awesome"><span class="fa fa-user"></span></span>
+                        <p class="info" style="font-size: 12px">
+                            CONTACT
+                        </p>
+						<hr>
+                        <p>
+                          
+                        </p>
+                    </div>-->
+
+
+					<div class="one-fifth column about-column" style="width: 45%">
+                        <span class="awesome"><span class="fa fa-calendar"></span></span>
+                        <p class="info" style="font-size: 12px">
+							IMPORTANT DATES
+                        </p>
+						<hr>
+                        <p>
+							<ul>
+                           		<li>Last date for online registration:  31.01.2015</li>
+								<li>Last date for sending the scanned copy of DD: 13.02.2015</li>
+
+							</ul>
+                        </p>
+                    </div>
+
+					<div class="one-fifth column about-column" style="width: 45%">
+                        <span class="awesome"><span class="fa fa-gift"></span></span>
+                        <p class="info" style="font-size: 12px">
+							PRIZES &amp; REWARDS
+                        </p>
+						<hr>
+                        <p>
+							<ul>
+                           		<li>First prize – CASH AWARD OF Rs.1000/-.</li>
+								<li>Second Prize – CASH AWARD OF Rs.750/-.</li>
+								<li>Certificates will be provided to all participants.</li>
+							</ul>
+                        </p>
+                    </div>
+					</div>
+
+                    
+                    <div class="sixteen columns">
+                        <div class="divider-left-bottom"></div>
+                    </div>
+                    <div class="sixteen columns">
+                        <div class="divider-right-bottom"></div>
+                    </div>
+                </div>
+                <div class="fire-closer">
+                    <a class="menu-state" href="#" id="fire-services-closer"><img alt="Closer" src="images/closer.png"></a>
+                </div>
+            </div>
+        </div>
+
+
+
+		<div class="lower-page" id="reg">
+            
+            <div class="lower-content">
+                <div class="contact-intro">
+                    <h1>
+                        REGISTRATION
+                    </h1>
+                </div>
+                <div class="container center" style="width: 660px">
+					<p>
+						<iframe src="http://www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2Freflechir15&amp;width=600&amp;height=258&amp;colorscheme=dark&amp;show_faces=true&amp;header=false&amp;stream=false&amp;show_border=false&amp;appId=380893121966623" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:600px; height:150px;" allowTransparency="true"></iframe>
+					</p>
+					<p style="font-size: 20px;">
+						Registration is CLOSED. We do not accept new entries anymore.
+					</p>
+                    <div class="twelve columns">
+                        <div class="divider-left-top"></div>
+                    </div>
+                    <div class="twelve columns">
+                        <div class="divider-right-top"></div>
+                    </div>
+					<br>
+                    
+                    <div class="nine columns">
+                        <div id="contact-form">
+                            <form action="https://docs.google.com/forms/d/1wtlTKAAVvzODA61m5FCwP1v6R-fFTsmuzO_FYivEfgk/formResponse" id="form" method="post" name="send" onsubmit="return validate()">
+                                <div class="holder">
+                                    <div>
+                                        <input class="requiredField name" id="name" name="entry.1069642005" placeholder="Name" type="text">
+                                    </div>
+									<br>
+									<div>
+                                        <input class="name" id="pname" name="entry.2045249085" placeholder="Partner Name" type="text">
+                                    </div>
+									<br>
+                                    <div>
+                                        <input class="requiredField email" id="email" name="entry.56989294" placeholder="Email" type="email">
+                                    </div>
+									<br>
+									<div>
+										<select name="entry.2081017474" class="requiredField dd">
+											<option value="Female">Female</option>
+											<option value="Male">Male</option>
+										</select>
+									</div>
+									<br>
+                                    <div>
+                                        <input class="requiredField subject" id="subject" name="entry.1799727006" placeholder="College" type="text">
+                                    </div>
+									<br>
+									<div>
+										<input class="requiredField subject" id="subject" name="entry.234255217" placeholder="Roll Number" type="text">
+</textarea>
+                                    </div>
+									<br>
+									<div>
+										<select name="entry.2009464427" class="requiredField dd" id="course">
+												<option value="empty">---Select Course---</option>
+												<option value="Electronics and Communication Engineering">Electronics and Communication Engineering</option>
+												<option value="Electrical and Electronics Engineering">Electrical and Electronics Engineering</option>
+												<option value="Computer Science and Engineering">Computer Science and Engineering</option>
+												<option value="Civil Engineering">Civil Engineering</option>
+												<option value="Electronics and Instrumentation Engineering">Electronics and Instrumentation Engineering</option>
+												<option value="Mechanical Engineering">Mechanical Engineering</option>
+												<option value="Information Technology">Information Technology</option>
+												<option value="Arts">Arts</option>
+												<option value="Others">Others</option>
+											</select>
+									</div>
+									<br>
+									<div>
+										<select name="entry.1655813632" class="requiredField dd" id="event1" onchange="emailpaper()">
+												<option value="empty">---Select an Event---</option>
+												<option value="Paper Presentation">Paper Presentation</option>
+												<option value="Project Expo">Project Expo</option>
+												<option value="Both">Both</option>
+												<option value="None">None</option>
+											</select>
+									</div>
+									<div>
+										<script>
+											function emailpaper() {
+												if(document.getElementById('event1').value == 'Paper Presentation' || document.getElementById('event1').value == 'Project Expo' || document.getElementById('event1').value == 'Both') {
+													document.getElementById('emailpaper').innerHTML = "Please email your project abstract and/or paper to <span style='font-weight: bold'><a href='mailto:reflechirece15@gmail.com'>reflechirece15@gmail.com</a></span>";
+												}
+												else if(document.getElementById('event1').value == 'empty' || document.getElementById('event1').value == 'None') {
+													document.getElementById('emailpaper').innerHTML = "";
+												}
+											}
+										</script>
+										<p id="emailpaper">
+										</p>
+									</div>
+									<br>
+									<div>
+										<select name="entry.1112346490" class="requiredField dd" id="event2">
+												<option value="empty">---Select Another Event---</option>
+												<option value="Debugging">Debugging</option>
+												<option value="Brain Storming">Brain Storming</option>
+												<option value="Potpourri">Potpourri</option>
+												<option value="Surprise Event">Surprise Event</option>
+												<option value="None">None</option>
+											</select>
+									</div>
+									<br>
+									<script>
+										function validate() {
+											if((document.getElementById('course').value == 'empty') || (document.getElementById('event1').value == 'empty') || (document.getElementById('event2').value == 'empty')) {
+												alert('Please enter valid data');
+												return false;
+											}
+											else {
+												if(document.getElementById('event1').value == 'Paper Presentation' || document.getElementById('event1').value == 'Project Expo' || document.getElementById('event1').value == 'Both') {
+													alert('Please do not forget to send your paper or project abstract to reflechirece15@gmail.com with the email address you have registered before the deadline');
+												}
+												return true;
+											}
+										}
+									</script>
+									<div>
+											<input class="requiredField subject" id="subject" name="entry.1912825111" placeholder="City" type="text">
+									</div>
+									<br>
+									<div>
+										<input type="number" name="entry.1912590901" placeholder="Phone" class="requiredField">
+									</div>
+									<input type="hidden" name="draftResponse" value="[,,&quot;-7068336539488156952&quot;]">
+									<input type="hidden" name="pageHistory" value="0">
+									<input type="hidden" name="fbzx" value="-7068336539488156952">
+                                </div>
+								<br>
+                                <div class="holder">
+                                    <div>
+                                        <button class="submit white-border" data-hover="Submit" type="submit" value="Submit">Submit</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="sixteen columns">
+                        <div class="divider-left-bottom"></div>
+                    </div>
+                    <div class="sixteen columns">
+                        <div class="divider-right-bottom"></div>
+                    </div>
+                </div>
+
+                <div class="fire-closer">
+                    <a class="menu-state" href="#" id="fire-contact-closer"><img alt="Closer" src="images/closer.png"></a>
+                </div>
+            </div>
+        </div>
+        
+
+
+		<div class="lower-page" id="contact">
+            
+            <div class="lower-content">
+
+                <div class="services-intro">
+                    <h1>
+                        CONTACT
+                    </h1>
+                </div>
+				<br>
+                <div class="container center" style="width: 660px">
+
+					For help, please feel free to email us at <a href="mailto:reflechirhelp@gmail.com">reflechirhelp@gmail.com</a> or contact the below co-ordinators<br>
+                    <div class="twelve columns">
+                        <div class="divider-left-top"></div>
+                    </div>
+                    <div class="twelve columns">
+                        <div class="divider-right-top"></div>
+                    </div>
+					
+                    <div class="one-third column contact-column" style="width: 30%">
+                        <div class="info-address">
+                            <span class="awesome"><span class="fa fa-user"></span></span>
+                            <p class="info">
+                                <font size="2px">Prasanna Venkatesh Kumar R</font>
+                            </p>
+                            <p>
+                                Final Year, ECE<br>
+                                <span class="awesome"><span class="fa fa-phone"></span></span> 9095512278
+                            </p>
+                        </div>
+                    </div>
+					<div class="one-third column contact-column" style="width: 30%">
+                        <div class="info-address">
+                            <span class="awesome"><span class="fa fa-user"></span></span>
+                            <p class="info">
+                                Sugadev M
+                            </p>
+                            <p>
+                                Final Year, ECE<br>
+                                <span class="awesome"><span class="fa fa-phone"></span></span> 9003762017
+                            </p>
+                        </div>
+                    </div>
+					<div class="one-third column contact-column" style="width: 30%">
+                        <div class="info-address">
+                            <span class="awesome"><span class="fa fa-user"></span></span>
+                            <p class="info">
+                                Abhejit SK
+                            </p>
+                            <p>
+                                Final Year, ECE<br>
+                                <span class="awesome"><span class="fa fa-phone"></span></span> 7708312541
+                            </p>
+                        </div>
+                    </div>
+                	<div class="sixteen columns">
+	                    <div class="divider-left-bottom"></div>
+	                </div>
+	                <div class="sixteen columns">
+	                    <div class="divider-right-bottom"></div>
+	                </div>   
+                </div>
+				
+                <div class="fire-closer">
+                    <a class="menu-state" href="#" id="fire-services-closer"><img alt="Closer" src="images/closer.png"></a>
+                </div>
+            </div>
+        </div>
+		
+		
+		
+        <script type="text/javascript" src="js/supersized.3.2.7.min.js"></script>
+		<script type="text/javascript" src="js/supersized.3.2.7.bg-slideshow-image.js"></script>
+        <script type="text/javascript" src="js/supersized.shutter.min.js"></script>
+        <script type="text/javascript" src="js/jquery.nicescroll.3.5.4.js"></script>
+        <script type="text/javascript" src="js/sky.js"></script>
+        <script type="text/javascript" src="js/form-subscribe.js"></script>
+        <script type="text/javascript" src="js/form-contact.js"></script>
+        <script type="text/javascript" src="knob/countdown.js"></script>
+        <script type="text/javascript" src="knob/jquery.knob.js"></script>
+        <!-- countdown setup start -->
+        <script type="text/javascript">
+        //<![CDATA[
+            $(document).ready(function() {
+                "use strict";
+                $("#countdown").countdown({
+                    date: "26 February 2015 00:00:00", // countdown target date settings
+                    format: "on"
+                }, function() {
+                    // callback function
+                });
+            });
+        //]]>
+        </script><!-- countdown setup end -->
+        <script type="text/javascript" src="knob/knob.js"></script>
+        <script type="text/javascript" src="js/particles.js"></script>
+        <script type="text/javascript" src="js/app.js"></script>
+        <!-- style switcher start -->
+        <script type="text/javascript" src="styleswitch/styleswitch.js"></script>
+		<script type="text/javascript">
+        //<![CDATA[
+            $(document).ready(function() {
+			    "use strict";
+                $(".corner").click(function() {
+                $('#customizer').toggleClass('s-open');
+            });
+        });
+
+        function swapStyleSheet(sheet) {
+            document.getElementById('general-css').setAttribute('href', sheet);
+        }
+        //]]>
+        </script>
+        <div class="s-close" id="customizer">
+            <span class="corner" style="background: url('yt.jpg')"></span>
+			<!--<img src="yt.png">-->
+            <div class="visible" id="options">
+                <div class="options-head" style="line-height: 50px">
+                    Reflechir'15 Intro
+                </div>
+                <div class="options-segment">
+                    <iframe width="400" height="355" src="http://www.youtube.com/embed/xElhZZrHBBk" frameborder="0" allowfullscreen></iframe>
+                </div>
+				<div class="options-head" style="margin-top: -25px; font-size: 10px; height: 25px; line-height: 25px">
+                    <span>Video by Karthick Babu S S, Pre-Final Year, ECE</span>
+                </div>
+            </div>
+        </div>
+
+		
+    </body>
+</html>

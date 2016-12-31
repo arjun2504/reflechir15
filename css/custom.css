@@ -1,0 +1,37 @@
+.dd {
+	width: 91%;
+	padding: 0px;
+	font-size: 12px;
+	height: 50px;
+	background: transparent;
+	color: #bbb;
+	border-radius: 0px;
+	border-color: #fff;
+	background-color: #000;
+}
+.dl-poster {
+	border-style: solid;
+	border-width: 1px;
+	padding: 3px;
+	text-align: center;
+	margin-right: 10px;
+	height: 22px;
+	font-size: 14px;
+	float: left;
+	border-color: #333;
+	padding-left: 3px;
+	padding-right: 3px;
+}
+.dl-poster:hover {
+	background-color: #bb141a;
+	border-color: #eee;
+}
+#eventshow li a {
+	color: #bbb;
+}
+#eventshow li a:focus, #eventshow li a:hover {
+	color: #bb141a;
+}
+.container .twelve.columns {
+	width: 630px;
+}
